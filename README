@@ -1,0 +1,36 @@
+chinese Mp3 id3 tag auto-converter
+---------------------------
+
+!!!!Important: This script is provided as it is and no responsibilities will be held for any potential damages to your files. Please back up your files before you run the script.
+
+1) Introduction
+-----
+A very simple python script , based on ID3Tag library and TagEncoder code from  Alastair Tse at http://www.liquidx.net/code/.
+
+Automaticaly converts chinese id3 tags which are encoded in gb2312 /big5 or others in mp3 files to utf-16 encoded so they can be correctly displayed on MAC, e.g. iTunes.
+
+Every files under the directory and subdirectories will be converted.
+
+2)Author
+-----
+MMPOWER
+
+http://www.haiguinet.com
+http://www.smartpeer.net
+
+
+3) Usage
+--------
+(1) back up your mp3 files
+
+(2)run the following command in command line: 
+python ConvertMp3.py <directory name>
+
+
+4) Todo List
+---------
+
+automatically calls MusicBrainz API to identify the songs and fill in the tags.
+
+
+
